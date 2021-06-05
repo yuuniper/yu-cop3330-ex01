@@ -1,5 +1,10 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Alice Yu
+ */
 package base;
 import java.util.Scanner;
+
 /*
 Exercise 1 - Saying Hello
 Create a program that prompts for your name and prints a greeting using your name.
@@ -24,7 +29,7 @@ public class App {
         System.out.println("What is your name?");
         String name = in.nextLine();
 
-        String outputString = "Hello" + name + "nice to meet you!";
+        String outputString = "Hello," + name + ",nice to meet you!";
         System.out.println(outputString);
     }
 }
